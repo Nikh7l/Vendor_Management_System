@@ -137,3 +137,25 @@ def vendor_performance(request, vendor_id):
     }
 
     return Response(performance_data)
+
+
+##################################################################################################################
+from django.core.management.base import BaseCommand
+from django.contrib.auth.models import User
+from rest_framework_simplejwt.tokens import RefreshToken
+
+
+def generate_tokens():
+    # Check if the test user already exists
+    if not User.objects.filter(username='test_user').exists():
+        # Create a new user with username 'test_user' and password 'test_password'
+        User.objects.create_user(username='test_user', password='test_password')
+
+    # Retrieve the test user
+    test_user = User.objects.get(username='test_user')
+
+    # Generate tokens for the test user
+    refresh = RefreshToken.for_user(test_user)
+
+    # Return the generated tokens
+    return str(refresh.access_token), str(refresh)

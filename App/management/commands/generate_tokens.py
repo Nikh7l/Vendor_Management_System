@@ -21,3 +21,4 @@ class Command(BaseCommand):
         # Display the generated tokens
         self.stdout.write(self.style.SUCCESS(f'Access Token: {str(refresh.access_token)}'))
         self.stdout.write(self.style.SUCCESS(f'Refresh Token: {str(refresh)}'))
+        
