@@ -1,6 +1,6 @@
 # Vendor_Management_System
 
-This repository contains the source code for a Vendor Management System API built using Django and Django REST Framework. The API includes endpoints for managing vendors, purchase orders, and vendor performance metrics. Token-based authentication is used to secure the API endpoints.
+This repository contains the source code for a Vendor Management System built using Django and Django REST Framework. The API includes endpoints for managing vendors, purchase orders, and vendor performance metrics. Token-based authentication is used to secure the API endpoints.
 
 # Setup Instructions
 
