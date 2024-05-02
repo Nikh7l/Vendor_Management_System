@@ -39,3 +39,7 @@ python manage.py runserver
 ```bash
 py manage.py test App.tests
 ```
+# 7. Postman Collection
+
+You can also use the Postman Collection to test the project. Import the collection into your Postman workspace to get started.
+[Postman Collection](https://www.postman.com/n7khil/workspace/fatmug/collection/30187028-bff1cfab-5050-418a-9053-c9129e1da558?action=share&creator=30187028)!
