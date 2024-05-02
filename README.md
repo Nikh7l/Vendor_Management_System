@@ -34,3 +34,8 @@ python manage.py generate_tokens
 ```bash
 python manage.py runserver
 ```
+# 6. To run the automated tests for this project use 
+
+```bash
+py manage.py test App.tests
+```
