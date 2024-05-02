@@ -6,7 +6,7 @@ This repository contains the source code for a Vendor Management System API buil
 
 # 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/vendor-management-api.git](https://github.com/Nikh7l/Vendor_Management_System.git)
+git clone https://github.com/Nikh7l/Vendor_Management_System.git
 cd .\Vendor_Management_System\
 ```
 
